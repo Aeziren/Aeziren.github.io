@@ -25,7 +25,7 @@ disqus_shortname: Miguel Silva
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 000000 #0f0f0f
+  primary: "000000" #0f0f0f
   primary-rgb: "255,100,100" #"20,20,20"
   secondary: 00ff00 #0f0f0f
   secondary-dark: 0000ff #0f0f0f
