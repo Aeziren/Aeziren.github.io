@@ -1,5 +1,5 @@
 # Site settings
-title: Miguel Silva Lima
+title: Miguel Silva
 email: miguelsl2000@gmail.com
 url: https://github.com/jeromelachaud/freelancer-theme
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
@@ -25,10 +25,10 @@ disqus_shortname: Miguel Silva
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 000000 #80B3FF
-  primary-rgb: "0,0,0" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 090909 #0f0f0f
+  primary-rgb: "100,100,100" #"20,20,20"
+  secondary: 090909 #0f0f0f
+  secondary-dark: 090909 #0f0f0f
 
 # Footer settings
 footer:
@@ -47,8 +47,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 2490 Gondemaria
-  - line: Ourém, Santarém, Portugal
+  - line: 2490 Ourém
+  - line: Santarém, Portugal
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
