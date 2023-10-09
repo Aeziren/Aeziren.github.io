@@ -7,6 +7,7 @@
 body {
     overflow-x: hidden;
     background-color: rgb(34, 34, 34);
+    background-image: url("img/background.png");
 }
 
 p {
@@ -23,7 +24,6 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
 }
 
 h1,
@@ -41,22 +41,22 @@ hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
-    max-width: 250px;
+    max-width: 300px;
     border: 0;
-    border-top: solid 5px;
+    border-top: solid 2.8px;
     text-align: center;
     overflow: visible;
 }
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f121";
     display: inline-block;
     position: relative;
     top: -.8em;
     padding: 0 .25em;
     font-family: FontAwesome;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 hr.star-light {
@@ -74,7 +74,7 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
-    background-color: #fff;
+    background-color: #222222;
 }
 
 .img-centered {
@@ -84,7 +84,6 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
 }
 
 header .container {
@@ -113,7 +112,7 @@ header .intro-text .skills {
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
-        padding-bottom: 100px;
+        padding-bottom: 250px;
     }
 
     header .intro-text .name {
@@ -170,10 +169,12 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+    background-color: #ffffff0d;
 }
 
 section {
     padding: 100px 0;
+    background-color: #131313;
 }
 
 section h2 {
@@ -183,7 +184,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: black;
 }
 
 @media(max-width:767px) {
