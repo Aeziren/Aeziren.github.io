@@ -111,7 +111,7 @@ header .intro-text .skills {
 @media(min-width:768px) {
     header .container {
         padding-top: 355px;
-        padding-bottom: 420px;
+        padding-bottom: 600px;
     }
 
     header .intro-text .name {
@@ -514,7 +514,15 @@ div.intro-text {
     position: absolute;
     top: 50%;
     left: 50%;
+    bottom: 0%;
     transform: translate(-50%, -50%);
+}
+
+#scrolldown {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 270px);
 }
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
