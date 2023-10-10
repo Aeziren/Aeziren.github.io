@@ -510,6 +510,12 @@ footer .footer-below {
     border-color: #9860d1;
 }
 
+div.intro-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
 .modal.fade.in {
