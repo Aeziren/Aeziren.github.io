@@ -14,7 +14,11 @@
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
-            <hr class="star-primary">
+            <div class="hr-symbol hr-content">
+              <div class="hr-line cyan"></div>
+              <div><img src="img/symbol.png" class="symbol" style="margin-bottom: 0;"></div>
+              <div class="hr-line cyan"></div>
+            </div>
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
             <p>{{ post.description }}</p>
@@ -36,7 +40,7 @@
               </li>
               {% endif %}
             </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+            <button type="button" class="btn btn-info blue-border-button" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
           </div>
         </div>
