@@ -35,7 +35,7 @@ footer:
   copyright: Luiz Miguel Silva Lima
   location: Location
   social: Follow Me!
-  credits: Credits
+  credits: Documents
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -43,7 +43,11 @@ social:
   - title: linkedin
     url: https://www.linkedin.com/in/miguelsilvalima/
   - title: github
-    url: http://github.com/aeziren
+    url: https://github.com/aeziren
+  - title: steam
+    url: https://steamcommunity.com/id/aeziren/
+  - title: discord
+    url: https://discordapp.com/users/229376961783267328
 
 # Postal address (add as many lines as necessary)
 address:
@@ -51,7 +55,7 @@ address:
   - line: Santarém, Portugal
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: ''
 
 # Build settings
 markdown: kramdown
